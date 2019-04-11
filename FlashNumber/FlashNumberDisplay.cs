@@ -76,6 +76,7 @@ namespace FlashNumber
                 RestructureForm(false);
                 return;
             }
+
             this.toolStripNoIoFAttempts.Text = $"Count : {FlashNumbers.NoofAttempt} / {FlashNumbers.NoOfTimes}";
             this.lblNumber.Text = displaytext;
             // Speak a string.
